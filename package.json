@@ -1,20 +1,20 @@
 {
-    "name": "Selvania-Launcher",
-    "preductname": "Selvania Launcher",
-    "version": "2.1.1",
-    "description": "Launcher Mincraft pour le serveur Selvania",
+    "name": "lastblockalive-Launcher",
+    "preductname": "lastblockalive-Launcher",
+    "version": "1.1.1",
+    "description": "Launcher Mincraft pour le serveur LastBlockAlive",
     "main": "src/app.js",
     "author": {
-        "name": "luuxis, Inc.",
-        "email": "contact@luuxis.fr",
-        "url": "https://github.com/luuxis"
+        "name": "Flyxios, Inc.",
+        "email": "flyxiospro@gmail.com",
+        "url": "https://github.com/Flyxiosp"
     },
     "url": "http://185.253.54.81",
     "scripts": {
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "dev": "cross-env-shell DEV_TOOL=open nodemon --exec npm start",
         "build": "node build.js --obf=true --build=platform",
-        "icon": "node build.js --icon=https://raw.githubusercontent.com/luuxis/Selvania-Launcher/master/src/assets/images/icon.png"
+        "icon": "node build.js --icon=https://raw.githubusercontent.com/Flyxiosp/LastBlockAlive-Launcher/refs/heads/master/lastblockalive-logo.png"
     },
     "license": "CCANC",
     "nodemonConfig": {
