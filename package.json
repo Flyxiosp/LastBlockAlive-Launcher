@@ -1,7 +1,7 @@
 {
     "name": "lastblockalive-launcher",
     "preductname": "lastblockalive-Launcher",
-    "version": "3.0.0",
+    "version": "3.0.1",
     "description": "Launcher Mincraft pour le serveur LastBlockAlive",
     "main": "src/app.js",
     "author": {
